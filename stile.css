@@ -138,8 +138,10 @@ max-width: 200px;}
     color: white;
     height: auto;
     border: 3px solid white;
+    float: center;
     text-align: center;
-    width: 90%;}
+    width: 90%;
+}
 
 div h2 {border-left: 18px solid hsl(0, 100%, 70%);
     border-right: 18px solid hsl(0, 100%, 70%);
