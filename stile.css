@@ -311,8 +311,14 @@ p {color: white;}
 .fa-quote {display: none;}
 
 
-#freccina{color: white; float: right;cursor: pointer;
-          }
+#freccina{color: white; 
+         float: right;
+         cursor: pointer;
+         position: fixed;
+         bottom: 10px;
+         right: 12px;
+         width: 55px !important;
+         padding: 6px;}
 
 #map {border: 9px solid rgb(90, 146, 518) !important;
     width: 100%;
