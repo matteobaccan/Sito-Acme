@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {box-sizing: border-box;}
+
+body {background-color: #000000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Poppins,'Trebuchet MS', sans-serif;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 90%;        background-image:url('https://cdn.statically.io/img/i.pinimg.com/originals/dc/00/79/dc00790dca42ef1ed8adabdb0a0ab958.jpg');
+background-size: 100%;}
+
+.barraalto {background-color: hsl(0, 0%, 0%);
+            float: center;
+            width: 90%;
+            position: fixed;
+            height: 140px;}
+
+.barraalto bandiere{position: fixed;
+                    float: right;}
+
+nav {background-color: #000000;
+     padding: 18px;
+     width: 70px;
+     display: flex;
+     align-items: left;
+     justify-content: left;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+     transition: width 0.6s linear;
+     overflow-x: hidden;
+     margin: 1%;
+     float: left;
+     position: fixed;
+     margin-top: 2.5%;}
+
+nav.active {width: 340px;}
+
+nav ul {display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 0;
+        transition: width 0.6s linear;}
+
+nav.active ul {width: 90%;}
+
+nav ul li {transform: rotateY(0deg);
+  opacity: 0;
+  transition: transform 0.6s linear, opacity 0.6s linear;
+font-size: 15px;}
+
+nav.active ul li {opacity: 1;
+  transform: rotateY(360deg);}
+
+nav ul a {position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;}
+
+.icon {background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;}
+
+.icon:focus {outline: 0;}
+
+.icon .line {background-color: #ffffff;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transition: transform 0.6s linear;}
+
+.icon .line2 {top: auto;
+  bottom: 10px;}
+
+nav.active .icon .line1 {transform: rotate(-765deg) translateY(5.5px);}
+
+nav.active .icon .line2 {transform: rotate(765deg) translateY(-5.5px);}
+
+
+.logomio { max-width: fit-content;
+    margin: 20px auto 0px auto;
+    padding: 8px;
+    text-align: center;
+    color: white;}
+
+
+img.fotografia {display: inline-block;
+margin: 0 auto;
+text-align: center;
+max-width: 200px;}
+
+
+.bandiere {float: right;
+  max-width: 70px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 50px;}
+
+
+.sottotitolo {text-align: center;}
+
+.galleria {height: 250px;
+           margin-top: 60px;
+           margin-bottom: 60px;}
+
+
+.frasi {margin: 1%; text-align: center;}
+
+
+
+.openday {margin: 0 auto;
+    border: 3px solid white;
+    padding: 8px;
+    max-width: 700px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Poppins, 'Trebuchet MS', sans-serif;}
+
+
+#banner_rosso {background-color: rgb(250, 106, 106);}
+
+#banner_arancione {background-color: orange;}
+
+#Tourscuola {background-color: hsl(0, 0%, 10%);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    height: auto;
+    border: 3px solid white;
+    text-align: center;}
+
+div h2 {border-left: 18px solid hsl(0, 100%, 70%);
+    border-right: 18px solid hsl(0, 100%, 70%);
+    padding-left: 20px;}
+
+
+
+#youtubevideo {
+    width: 90%;
+    height: 315px;
+    float: center;}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.artivisive {padding: 18px;
+             text-align: center;
+             margin: 10px 0;}
+
+#primocorso {border-radius: 20px;
+             border: 3px solid white;
+             background-color: rgb(250, 106, 106);}
+
+#secondocorso {margin-top: 50px;border-radius: 20px;
+               border: 3px solid white;
+               background-color: rgb(90, 146, 518) !important;;}
+
+#terzocorso {border-radius: 20px;
+             border: 3px solid white;
+             background-color: green;
+             margin-top: 50px;}
+
+.color1 {color: rgb(250, 106, 106);}
+
+.color2 {color: rgb(90, 146, 518) !important;}
+
+.color3 {color: green;}
+
+.dipartimentoin {padding-top: 1%;
+                 min-height: 90%;
+                 text-align: center;}
+
+div h5{font-size: 29px;}
+
+ul {
+    margin: 0 auto;
+    max-width: fit-content;
+    font-size: 22px;
+    padding-left: 3px !important;
+    max-width: 90%;
+    list-style-type: circle;}
+
+#durata {
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    height: auto;
+    border: 3px solid white;}
+
+#borse {
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    height: auto;
+    border: 3px solid white;}
+
+
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+  color: white;}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;}
+
+.faq {background-color: hsl(0, 0%, 10%);
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #000000;
+
+}
+
+.faq.active::before,
+.faq.active::after {
+  font-family: 'Font Awesome 5 Free';
+}
+
+
+
+.faq-title {
+  margin: 0 150px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 37px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 20%;
+  cursor: pointer;
+  color: #fff;
+  
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 8px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: red;
+}
+
+.space {height: 110px;
+    max-width: fit-content; margin: 0 auto;}
+
+p {color: white;}
+
+.fa-quote {display: none;}
+
+
+#freccina{color: white; float: right;cursor: pointer;
+          }
+
+#map {border: 9px solid rgb(90, 146, 518) !important;
+    width: 100%;
+    height: 330px;}
+
+.footer {background-color: hsl(0, 0%, 10%);
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 0.5%;}
+
+
+
+
+
+
+
+
