@@ -173,7 +173,8 @@ div h2 {border-left: 18px solid hsl(0, 100%, 70%);
 #terzocorso {border-radius: 20px;
              border: 3px solid white;
              background-color: green;
-             margin-top: 50px;}
+             margin-top: 50px;
+             margin-bottom: 50px;}
 
 .color1 {color: rgb(250, 106, 106);}
 
@@ -318,7 +319,7 @@ p {color: white;}
     height: 330px;
     margin-right: auto;
     margin-left: auto;
-    }
+    text-align: center;}
 
 .footer {background-color: hsl(0, 0%, 10%);
     max-width: 100%;
