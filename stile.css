@@ -201,7 +201,10 @@ ul {
     padding: 30px;
     color: white;
     height: auto;
-    border: 3px solid white;}
+    border: 3px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;}
 
 #borse {
     background-color: hsl(0, 0%, 10%);
@@ -209,7 +212,10 @@ ul {
     padding: 30px;
     color: white;
     height: auto;
-    border: 3px solid white;}
+    border: 3px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;}
 
 
 h1 {
@@ -308,8 +314,11 @@ p {color: white;}
           }
 
 #map {border: 9px solid rgb(90, 146, 518) !important;
-    width: 100%;
-    height: 330px;}
+    width: 90%;
+    height: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
 .footer {background-color: hsl(0, 0%, 10%);
     max-width: 100%;
